@@ -156,7 +156,7 @@ export default class Home extends React.Component {
             </button>
           </div>}
         </div>
-        <Link to="/list" style={{ textDecoration: 'none', color: 'black' }} className="btn btn-outline">Listado de peticiones</Link>
+        <Link to="/list" className="btn btn-outline-secondary">Listado de peticiones</Link>
         <div className="card mx-auto " style={{ width: '50%' }}>
           <div className="card-header text-center">
             <h5>Solicitud de prestamo</h5>

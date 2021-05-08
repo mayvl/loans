@@ -162,7 +162,7 @@ export default class List extends React.Component {
         </div>
 
         <div className="container  mt-5 justify-content-center align-items-center">
-          <Link to="/home" style={{ textDecoration: 'none', color: 'black' }} className="btn">Solicitud de prestamos</Link>
+          <Link to="/home" className="btn btn-outline-secondary">Solicitud de prestamos</Link>
           <div className="card  mx-auto " style={{ width: '60%' }}>
             <h5 className="card-header text-center" >Listado de peticiones</h5>
             <div className="card-body">
